@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 10px;
+  background: linear-gradient(to right, #c9dfc6, #f3b1a4);
+}
+
+#root {
+  /* padding: 20px; */
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  max-width: 920px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+nav > a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  margin-right: 30.5px;
+  text-decoration-line: none;
+  transition: color 0.3s ease, text-decoration-line 0.3s ease,
+    font-weight 0.3s ease;
+}
+nav > a:hover {
+  color: black;
+  text-decoration-line: underline;
+  font-weight: 700;
+}
+
+nav > a.active {
+  text-decoration-line: underline;
+  font-weight: 900;
+  background: linear-gradient(to right, #f700ff, #3369ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* nav {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #979797;
+  margin-bottom: 20px;
+} */
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  background: linear-gradient(to right, #f700ff, #ff6633);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section {
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #979797;
+  margin: 20px 0;
+}
+
+input[type="submit"] {
+  background: #03a8d8;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input,
+select {
+  font-family: "Open Sans", sans-serif;
+  background: #ffffff;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  padding: 9px 9.5px 9px 9.5px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.tile {
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.tile.tile-title {
+  font-weight: bold;
+}
+
+.tile-container {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.submit {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.submit:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to right, #ff4400, #daff33);
+  font-weight: bold;
+}

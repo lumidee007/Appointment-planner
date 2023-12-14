@@ -1,0 +1,23 @@
+.root-header-text {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-size: 2.2rem;
+  background: linear-gradient(to right, #f700ff, #3333ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #979797;
+}
+.root-header a {
+  font-size: 20px;
+}
+header .root-header span .root-header-pix {
+  background: rgb(164, 22, 22);
+}

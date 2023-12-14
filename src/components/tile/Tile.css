@@ -1,0 +1,45 @@
+.tile-container {
+  position: relative;
+  margin-bottom: 20px;
+  background-color: rgb(245, 243, 229);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.tile {
+  margin: 0;
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+
+.tile-title span,
+.title span {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* .tile-container .delete {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  height: 20px;
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: 900;
+  padding: 0;
+  transition: transform 0.3s ease;
+}
+
+.tile-container .delete:hover {
+  transform: scale(1.2);
+} */
+
+.key {
+  text-transform: capitalize;
+}
+
+.value {
+  color: rgb(79, 79, 206);
+}

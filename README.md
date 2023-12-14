@@ -2,11 +2,11 @@
 
 The React Appointment Planner is a comprehensive application serving as an organizer for scheduling appointments and managing contacts. Developed using React, it incorporates fundamental features such as useState, useEffect, and react-router to facilitate a seamless user experience. Below, you'll find an overview of its functionality and technical aspects.
 
-![Ap1](./public/images/Ap1.jpeg)
+![Ap1](./public/images/Ap1.png)
 
-![Ap2](./public/images/Ap2.jpeg)
+![Ap2](./public/images/Ap2.png)
 
-![Ap3](./public/images/Ap3.jpeg)
+![Ap3](./public/images/Ap3.png)
 
 ## Features
 
